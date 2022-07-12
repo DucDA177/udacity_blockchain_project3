@@ -1,11 +1,21 @@
 ------Contract address--------
-FarmerRole: 0x63fcc3a9cfc4d71ba961ff60d8cb73402420cc5c
-DistributorRole: 0xae40e1ec5cdca1e0a61170146218fa73fae07e19
-RetailerRole: 0x8bd411776d3ff75f315d04ac6bbaf076bf804c63
-ConsumerRole: 0x5427afc4ebd0b0f33375585ba6575c181412fb67
-SupplyChain: 0x69ae0fdcde926a028c05402f8c5e1353b4b44bf6
+Migrations: 0x95976327d00313aad9007ccfcde20766a05e07fd
+FarmerRole: 0x5836be2311aa467d8d0f7c1cf1e2c2e47630285c
+DistributorRole: 0x13439894547b31cd4cfc82885cab1416a9040a91
+RetailerRole: 0xe28626d354793e142236572cd6a5cf90a0aa4841
+ConsumerRole: 0xe7cc141c09a3d9af503754a3124c9b4c484e5034
+SupplyChain: 0x35e0c7d2e591d5462f30ab6ea2e8d1c138f91cd1
 
 ------Program version---------
 Node version: v14.15.5
 Truffle: v4.1.14 (core: 4.1.14)
 Web3: v1.2.11
+
+--------Step-by-step instructions---------
+ + Launch Ganache: ganache-cli -m "spirit supply whale amount human item harsh scare congress discover talent hamster"
+ + Open new terminal
+ + Go to project: cd udacity_blockchain_project3
+ + Compile: truffle compile
+ + Test: truffle test
+ + Deploy: truffle deploy --reset network rinkeby
+ + Running the front-end: npm run dev
